@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>For The Record</title>
+
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+English|Playfair+Display:900" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
+
+	<script>
+		document.documentElement.className = "js";
+		var supportsCssVars = function() {
+			var e, t = document.createElement("style");
+			return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
+		};
+		supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
+</head>
+
+<body class="w-full h-screen vars bg-pattern">
+	<div class="grid">
+		<div class="grid__item">
+			<div class="glitch glitch--style-1 rounded-md shadow-md">
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+			</div>
+			<h2 class="grid__item-title">Lorem <span>ipsum</span></h2>
+		</div>
+		<div class="grid__item">
+			<div class="glitch glitch--style-2 rounded-md shadow-md">
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+			</div>
+			<h2 class="grid__item-title">ipsum <span>dolor</span></h2>
+		</div>
+		<div class="grid__item">
+			<div class="glitch glitch--vertical glitch--style-3 rounded-md shadow-md">
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+			</div>
+			<h2 class="grid__item-title">dolor <span>sit</span></h2>
+		</div>
+		<div class="grid__item">
+			<div class="glitch glitch--style-4 rounded-md shadow-md">
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+			</div>
+			<h2 class="grid__item-title">sit <span>amet</span></h2>
+		</div>
+		<div class="grid__item">
+			<div class="glitch glitch--style-5 rounded-md shadow-md">
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+			</div>
+			<h2 class="grid__item-title">amet <span>consectetur</span></h2>
+		</div>
+		<div class="grid__item">
+			<div class="glitch glitch--style-6 rounded-md shadow-md">
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+			</div>
+			<h2 class="grid__item-title">consect <span>adipiscing</span></h2>
+		</div>
+		<div class="grid__item">
+			<div class="glitch glitch--style-7 rounded-md shadow-md">
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+			</div>
+			<h2 class="grid__item-title">adip <span>elit.</span></h2>
+		</div>
+		<div class="grid__item">
+			<div class="glitch glitch--style-8 rounded-md shadow-md">
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+				<div class="glitch__img"></div>
+			</div>
+			<h2 class="grid__item-title">elit. <span>Donec.</span></h2>
+		</div>
+	</div>
+
+</body>
+
+</html>
